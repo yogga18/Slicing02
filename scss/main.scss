@@ -1,0 +1,88 @@
+//Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+//variable
+$primary: #3A5AFF;
+$secondary: #2F281E;
+$thrid: #544837;
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-nav {
+    .container {
+        .navbar-brand {
+            .logo {
+                @media screen and (max-width : 768px) {
+                    max-width: 210px;
+                }
+
+                @media screen and (max-width : 333px) {
+                    max-width: 180px;
+                }
+            }
+        }
+        #navbarNav {
+            .navbar-nav{
+                .nav-item {
+                    .nav-link{
+                        svg {
+                            color: #111;
+                        }
+                        color: white;
+                        margin-left: 10px;
+                        transition: all .2s ease-in-out;
+
+                        &:hover {
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.jumbotron {
+    .container {
+        .baris-1 {
+            .side-a {
+                .display-4 {
+                    color: $secondary;
+                    font-weight: 800;
+                    font-size: 60px;
+                    white-space: nowrap;
+
+                    @media screen and (max-width: 999px){
+                        white-space: normal;
+                        font-size: 50px;
+                    }
+                }
+                .lead {
+                    color: $thrid;
+                    font-size: 20px;
+                }
+                .btn {
+                    @media screen and (max-width: 350px) {
+                        padding: 0;
+                    }       
+                }
+
+                .app {
+                    p {
+                        font-weight: bolder;
+                    }
+                    img {
+                        @media screen and (max-width: 350px) {
+                            max-width: 85px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

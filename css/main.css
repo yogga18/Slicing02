@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-nav .container .navbar-brand .logo {
+    max-width: 210px;
+  }
+}
+@media screen and (max-width: 333px) {
+  .custom-nav .container .navbar-brand .logo {
+    max-width: 180px;
+  }
+}
+.custom-nav .container #navbarNav .navbar-nav .nav-item .nav-link {
+  color: white;
+  margin-left: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.custom-nav .container #navbarNav .navbar-nav .nav-item .nav-link svg {
+  color: #111;
+}
+.custom-nav .container #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  opacity: 0.7;
+}
+
+.jumbotron .container .baris-1 .side-a .display-4 {
+  color: #2F281E;
+  font-weight: 800;
+  font-size: 60px;
+  white-space: nowrap;
+}
+@media screen and (max-width: 999px) {
+  .jumbotron .container .baris-1 .side-a .display-4 {
+    white-space: normal;
+    font-size: 50px;
+  }
+}
+.jumbotron .container .baris-1 .side-a .lead {
+  color: #544837;
+  font-size: 20px;
+}
+@media screen and (max-width: 350px) {
+  .jumbotron .container .baris-1 .side-a .btn {
+    padding: 0;
+  }
+}
+.jumbotron .container .baris-1 .side-a .app p {
+  font-weight: bolder;
+}
+@media screen and (max-width: 350px) {
+  .jumbotron .container .baris-1 .side-a .app img {
+    max-width: 85px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
